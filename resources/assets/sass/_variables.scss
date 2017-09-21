@@ -1,0 +1,86 @@
+/*
+|--------------------------------------------------------------------------
+| Colors
+|--------------------------------------------------------------------------
+*/
+$bg-body:		       white;
+$black:            #000000;
+$black-plataform:  #212121;
+$color-plataform:  #004ea9;
+$gray-darker:      lighten($black, 13.5%); // #222222
+$gray-dark:        lighten($black, 20.0%); // #333333
+$gray:             lighten($black, 33.5%); // #555555
+$gray-light:       lighten($black, 46.7%); // #777777
+$gray-lighter:     lighten($black, 93.5%); // #EEEEEE
+$white:            #f5f8fb;
+
+$brand-primary:         #0067da;
+$brand-secundary:		#1D6F95;
+$brand-gray:			#f5f5f5;
+
+$body-bg:               #101C26;
+/*
+|--------------------------------------------------------------------------
+| bgground
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| Typography
+|--------------------------------------------------------------------------
+*/
+$font-family-primary:      'vita-Regular', sans-serif;
+$font-family-primary__bold: 'vita-Bold', sans-serif;
+$font-family-secundary:     'Roboto', sans-serif;
+$primary-text-color:       $gray-dark;
+$link-color:               $brand-primary;
+$link-hover-color:         darken($link-color, 15%);
+$link-hover-decoration:    underline;
+
+@font-face {
+  font-family: 'vita-light';
+  src: url('../fonts/vita-light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'vita-Bold';
+  src: url('../fonts/vita-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'vita-Regular';
+  src: url('../fonts/vita-regular.ttf') format('truetype');
+}
+// size of fonts
+$font-size:           16px !default;
+$font-size-xlarge:    ceil(($font-size * 1.90)) !default; // ~30px
+$font-size-mlarge:    ceil(($font-size * 1.45)) !default; // ~23px
+$font-size-llarge:    ceil(($font-size * 1.25)) !default; // ~20px
+$font-size-slarge:    ceil(($font-size * 1.12)) !default; // ~18px
+$font-size-xsmall:    ceil(($font-size * 0.85)) !default; // ~14px
+$font-size-msmall:    ceil(($font-size * 0.65)) !default; // ~11px
+$font-size-ssmall:    ceil(($font-size * 0.55)) !default; // ~9px
+
+$font-size-h-1:       floor(($font-size * 2.50)) !default; // ~40px
+$font-size-h-2:       floor(($font-size * 2.15)) !default; // ~34px
+$font-size-h-3:       ceil(($font-size * 1.75)) !default;  // ~28px
+$font-size-h-4:       ceil(($font-size * 1.25)) !default;  // ~20px
+$font-size-h-5:       ceil(($font-size * 0.93)) !default;  // ~15px
+$font-size-h-6:       ceil(($font-size * 0.85)) !default;  // ~14px
+/*
+|--------------------------------------------------------------------------
+| Media Queries Breakpoints
+|--------------------------------------------------------------------------
+*/
+$screen-ss-min:    320px;
+$screen-xs-min:    480px;
+$screen-sm-min:    768px;
+$screen-md-min:    992px;
+$screen-mg-min:    1024px;
+$screen-lg-min:    1200px;
+$screen-gd-min:    1824px;
+
+$screen-ss-max:    ($screen-xs-min - 1);
+$screen-xs-max:    ($screen-sm-min - 1);
+$screen-sm-max:    ($screen-md-min - 1);
+$screen-md-max:    ($screen-mg-min - 1);
+$screen-mg-max:    ($screen-lg-min - 1);
+$screen-lg-max:    ($screen-gd-min - 1);

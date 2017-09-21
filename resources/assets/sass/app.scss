@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@import "bootstrap/bootstrap";
+
+
+@import "variables";
+@import "general";
+
+@import "common.blocks/blocks/navigation";
+@import "common.blocks/blocks/container";
+@import "common.blocks/blocks/post";
+@import "common.blocks/blocks/footer";
+@import "common.blocks/blocks/headers";
+@import "common.blocks/blocks/modals";
+
+@import "common.blocks/elements/image-background";
+@import "common.blocks/elements/center-height-width";
+@import "common.blocks/elements/control-fullPages";
+@import "common.blocks/elements/button";
+@import "common.blocks/elements/title";
+@import "common.blocks/elements/extract";
+@import "common.blocks/elements/logo";
+@import "common.blocks/elements/geometricFigures";
+@import "common.blocks/elements/blockquote";
+@import "common.blocks/elements/icons";
+@import "common.blocks/elements/list";
+@import "common.blocks/elements/input";
+@import "common.blocks/elements/line-multicolor";
+
+@import "common.blocks/modifier/container";
+@import "common.blocks/modifier/buttons";
+@import "common.blocks/modifier/extracts";
+@import "common.blocks/modifier/titles";
+@import "common.blocks/modifier/list";
+@import "common.blocks/modifier/logo";
+@import "common.blocks/modifier/icons";
+@import "common.blocks/modifier/animations";
+
+@import "mobile.blocks/blocks/navigation";
+@import "mobile.blocks/blocks/container";
+@import "mobile.blocks/blocks/headers";
+
+@import "mobile.blocks/blocks/post";

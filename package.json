@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "babel": "^5.6.4",
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "laravel-elixir": "^4.0.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-install": "^1.1.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.5",
+    "jshint-stylish": "^2.0.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^2.2.0"
+  }
+}
